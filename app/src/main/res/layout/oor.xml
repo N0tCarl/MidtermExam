@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_ok_rock"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Ok Rock is a Japanese rock band, formed in Tokyo, Japan, in 2005. Originally five members, the band currently consists of vocalist Takahiro Moriuchi, guitarist and bandleader Toru Yamashita, bassist Ryota Kohama, and drummer Tomoya Kanki."
+            android:textSize="15sp"
+            android:textAlignment="center"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

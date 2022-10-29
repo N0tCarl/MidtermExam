@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Vamps"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Vamps are a British pop band consisting of Brad Simpson, James Brittain-McVey, Connor Ball and Tristan Evans. They formed in 2012 and signed to Mercury Records in the November of the same year. In 2017, they had their first number 1 on the UK Albums Chart with Night and Day."
+            android:textSize="15sp"
+            android:textAlignment="center"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
